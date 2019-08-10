@@ -28,7 +28,7 @@ namespace ConsoleApp2
 
         private static Func<int, int> Operation = num =>
         {
-            Thread.Sleep(random.Next(4) * 1000);
+            Thread.Sleep(random.Next(5) * 1000);
             return num * num;
         };
     }
