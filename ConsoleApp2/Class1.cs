@@ -9,6 +9,6 @@ namespace ConsoleApp2
     public class Class1
     {
         public string name { get; set; }
-        public string pwd { get; set; }
+        public string pwd1 { get; set; }
     }
 }
