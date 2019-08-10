@@ -15,7 +15,7 @@ namespace ConsoleApp2
             {
                 Operation.BeginInvoke(i * 10, result =>
                 {
-                    Console.WriteLine($"第{result.AsyncState}个结果为{Operation.EndInvoke(result)}");
+                    Console.WriteLine($"第{result.AsyncState}个结果为：{Operation.EndInvoke(result)}");
                   
                 }, i);
             
