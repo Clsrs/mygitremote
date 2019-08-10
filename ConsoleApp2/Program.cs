@@ -9,6 +9,7 @@ namespace ConsoleApp2
 {
     class Program
     {
+        //第二个分支
         static void Main(string[] args)
         {
             for (int i = 1; i < 11; i++)
